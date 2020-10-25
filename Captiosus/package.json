@@ -1,0 +1,24 @@
+{
+    "name": "captiosus",
+    "version": "1.0.0",
+    "description": "Personal bot Server Wit.ai Node.js SDK",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Coulibaly Mamadou <coulibalyhamed@outlook.fr>",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.4",
+        "isomorphic-fetch": "^2.2.1",
+        "jsonwebtoken": "^8.4.0",
+        "mongoose": "^5.8.4",
+        "node-fetch": "^2.3.0",
+        "node-wit": "^5.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.2"
+    }
+}
